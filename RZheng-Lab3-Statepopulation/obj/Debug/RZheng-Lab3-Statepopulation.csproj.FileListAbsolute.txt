@@ -1,0 +1,14 @@
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\obj\Debug\RZheng-Lab3-Statepopulation.csproj.AssemblyReference.cache
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\obj\Debug\RZheng_Lab3_Statepopulation.Database.resources
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\obj\Debug\RZheng_Lab3_Statepopulation.DetailForm.resources
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\obj\Debug\RZheng_Lab3_Statepopulation.Home.resources
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\obj\Debug\RZheng_Lab3_Statepopulation.Properties.Resources.resources
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\obj\Debug\RZheng-Lab3-Statepopulation.csproj.GenerateResource.cache
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\obj\Debug\RZheng-Lab3-Statepopulation.csproj.CoreCompileInputs.cache
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\bin\Debug\Database1.mdf
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\bin\Debug\Database1_log.ldf
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\bin\Debug\RZheng-Lab3-Statepopulation.exe.config
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\bin\Debug\RZheng-Lab3-Statepopulation.exe
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\bin\Debug\RZheng-Lab3-Statepopulation.pdb
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\obj\Debug\RZheng-Lab3-Statepopulation.exe
+C:\Users\Robert\source\repos\RZheng-Lab3-Statepopulation\obj\Debug\RZheng-Lab3-Statepopulation.pdb
