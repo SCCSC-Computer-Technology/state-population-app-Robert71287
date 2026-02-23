@@ -77,7 +77,6 @@
             stateNameLabel.Size = new System.Drawing.Size(131, 26);
             stateNameLabel.TabIndex = 4;
             stateNameLabel.Text = "Select State";
-            stateNameLabel.Click += new System.EventHandler(this.stateNameLabel_Click);
             // 
             // stateNameComboBox
             // 
@@ -87,8 +86,6 @@
             this.stateNameComboBox.Location = new System.Drawing.Point(257, 106);
             this.stateNameComboBox.Name = "stateNameComboBox";
             this.stateNameComboBox.Size = new System.Drawing.Size(436, 30);
-            this.stateNameComboBox.TabIndex = 5;
-            this.stateNameComboBox.SelectedIndexChanged += new System.EventHandler(this.stateNameComboBox_SelectedIndexChanged);
             // 
             // tableBindingSource
             // 

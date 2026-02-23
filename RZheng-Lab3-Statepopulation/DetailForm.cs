@@ -29,12 +29,10 @@ namespace RZheng_Lab3_Statepopulation
             }
 
             // Get state record
-            var adapter = new Database1DataSetTableAdapters.TableTableAdapter();
+            var data = new StateData();
+            StateInfo state = data.GetStateByName(StateName);
 
-            var table = new Database1DataSet.TableDataTable();
-            adapter.GetSelectedStateByName(table, StateName);
-
-            if (table.Rows.Count == 0)
+            if (state == null)
             {
                 MessageBox.Show("State not found: " + StateName);
                 Close();
@@ -42,23 +40,23 @@ namespace RZheng_Lab3_Statepopulation
             }
 
             // Fill controls from first row
-            DisplayState(table.Rows[0]);
+            DisplayState(state);
 
-            // Optional: make fields display-only
             SetReadOnly(true);
         }
 
-        private void DisplayState(DataRow row)
+        //display base off  class
+        private void DisplayState(StateInfo state)
         {
-            populationTxtBox.Text = row["Population"].ToString();
-            capitolTxtBox.Text = row["Capitol"].ToString();
-            largestCityTxtbox.Text = row["LargestCity"].ToString();
-            stateFlowerTextBox.Text = row["StateFlower"].ToString();
-            stateBirdtxt.Text = row["StateBird"].ToString();
-            stateColortxt.Text = row["Colors"].ToString();
-            medianIncometxt.Text = row["MedianIncome"].ToString();
-            compJobTxt.Text = row["ComputerJobsPercent"].ToString();
-            flagdescriptiontxtbox.Text = row["FlagDescription"].ToString();
+            populationTxtBox.Text = state.Population;
+            capitolTxtBox.Text = state.Capitol;
+            largestCityTxtbox.Text = state.LargestCity;
+            stateFlowerTextBox.Text = state.StateFlower;
+            stateBirdtxt.Text = state.StateBird;
+            stateColortxt.Text = state.Colors;
+            medianIncometxt.Text = state.MedianIncome;
+            compJobTxt.Text = state.ComputerJobsPercent;
+            flagdescriptiontxtbox.Text = state.FlagDescription;
         }
 
         private void SetReadOnly(bool readOnly)

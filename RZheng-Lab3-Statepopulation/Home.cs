@@ -34,7 +34,7 @@ namespace RZheng_Lab3_Statepopulation
             }
 
             DetailForm details = new DetailForm();
-            details.StateName = selectedState;   // <-- THIS is the pass-over
+            details.StateName = selectedState;
             details.ShowDialog();
         }
 
@@ -44,21 +44,12 @@ namespace RZheng_Lab3_Statepopulation
             dbForm.ShowDialog();
         }
 
-        private void stateNameLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void stateNameComboBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Home_Load(object sender, EventArgs e)
         {
-            this.tableTableAdapter.Fill(this.database1DataSet.Table);
+            var data = new StateData();
+            var statesTable = data.GetAllStates();   // <-- from class
 
-            stateNameComboBox.DataSource = this.database1DataSet.Table;
+            stateNameComboBox.DataSource = statesTable;
             stateNameComboBox.DisplayMember = "StateName";
             stateNameComboBox.ValueMember = "StateId";
 

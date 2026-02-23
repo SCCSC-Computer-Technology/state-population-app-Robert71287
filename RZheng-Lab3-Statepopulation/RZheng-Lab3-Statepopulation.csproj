@@ -89,6 +89,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StateData.cs" />
+    <Compile Include="StateInfo.cs" />
     <EmbeddedResource Include="Database.resx">
       <DependentUpon>Database.cs</DependentUpon>
     </EmbeddedResource>
