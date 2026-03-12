@@ -1,0 +1,18 @@
+Heinrich Gottberg Code Review of Robert Zheng Lab 3
+
+Is the code generally readable and well-documented?
+
+  Yes, there could probably be more comments but it wasn't too complex to understand.
+
+Did you find any software defects?
+
+  Everything worked as expected, the database functions worked correctly.
+
+What was one way that their solution differed from yours?
+
+  We basically did the same thing except I had another page, but everything looked good.
+
+Do you have any other constructive comments for the author?
+
+  The Scaling of the form could have been tweaked a little bit but overall it was good.
+  Good work.
